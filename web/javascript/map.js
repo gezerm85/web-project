@@ -1,9 +1,9 @@
 if (document.getElementById('map')){
-    mapboxgl.accessToken = 'pk.eyJ1IjoiaG9hbmdoYW5kbiIsImEiOiJjbHp3YnUyc2cwMTl3MmtweWo1MjU0cnQ3In0.kJvlxTy_K1nVvwR8y5O8xA';
+    mapboxgl.accessToken = 'pk.eyJ1IjoiZ2V6ZXJtODUiLCJhIjoiY20xcnRobGltMDd0bjJpcjE2aXA4NG81aCJ9.eYe0V85BeffvRX3VNEQmWQ';
         const map = new mapboxgl.Map({
         container: 'map',
-        style: 'mapbox://styles/mapbox/light-v11',
-        center: [-0.108968,51.492933],
+        style: 'mapbox://styles/mapbox/outdoors-v12',
+        center: [32.84462311405331,39.933243225789525],
         zoom: 14,
         cooperativeGestures: true
     });
@@ -11,11 +11,11 @@ if (document.getElementById('map')){
     const geojson = {
         type: 'FeatureCollection',
         features: [
-            {
+            { 
             type: 'Feature',
             geometry: {
                 type: 'Point',
-                coordinates: [-0.108968,51.492933]
+                coordinates: [32.84462311405331, 39.933243225789525]
             }
             }
         ]
@@ -32,11 +32,11 @@ if (document.getElementById('map')){
 }
 
 if (document.getElementById('map1')) {
-    mapboxgl.accessToken = 'pk.eyJ1IjoiaG9hbmdoYW5kbiIsImEiOiJjbHp3YnUyc2cwMTl3MmtweWo1MjU0cnQ3In0.kJvlxTy_K1nVvwR8y5O8xA';
+    mapboxgl.accessToken = 'pk.eyJ1IjoiZ2V6ZXJtODUiLCJhIjoiY20xcnRobGltMDd0bjJpcjE2aXA4NG81aCJ9.eYe0V85BeffvRX3VNEQmWQ';
         const map1 = new mapboxgl.Map({
         container: 'map1',
-        style: 'mapbox://styles/mapbox/light-v11',
-        center: [-0.108968,51.492933],
+        style: 'mapbox://styles/mapbox/outdoors-v12',
+        center: [32.84462311405331, 39.933243225789525],
         zoom: 14,
         cooperativeGestures: true
     });
@@ -48,7 +48,7 @@ if (document.getElementById('map1')) {
             type: 'Feature',
             geometry: {
                 type: 'Point',
-                coordinates: [-0.108968,51.492933]
+                coordinates: [32.84462311405331, 39.933243225789525]
             }
             }
         ]
